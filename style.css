@@ -1,9 +1,87 @@
-div{
-    display: flex;
-    float: left;
-    margin:10em;
-    padding:50px;
-    border:2px solid black;
-    flex-direction:column-reverse;
+/* @media (min-width: 376px) {
+    main { background: url(images/bg-pattern-top.svg) no-repeat; }
+    .card { max-width: 400px; }
+  }
+@media (max-width: 375px) {
+    main { background: url(images/bg-pattern-top.svg) no-repeat; }
+    .card { max-width: 350px; }
+  }
+   */
+
+body {
+    background: url(images/bg-pattern-top.svg); 
+    background: url(images/bg-pattern-bottom.svg);
 
 }
+main{
+    margin-top:200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+div.card{
+    
+    display: flex;
+    float: left;
+    background-color: white;
+    flex-direction:column;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.image-victor{
+    border-radius: 50%;
+    height:  100px ;
+    width: 100px;
+    justify-content: center;
+    margin-top:-50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px white solid;
+
+}
+.top-image{
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+
+h1{
+    margin-top:35px;
+    font-size:1.5em;
+    align-content: center;
+
+}
+
+
+/* p{
+    border-top:1px solid black;
+    
+    
+}
+#p3{
+    background-color: white;
+    font-size: 1em;;
+    font-weight: bold; 
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;   
+    
+}
+.p2{
+    background-color: white;
+    float: left;
+    width: 33.33%;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+footer{
+    margin-top:150px;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+} */
