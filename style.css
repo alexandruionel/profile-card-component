@@ -89,9 +89,9 @@ body {
     
     
     p{
-        border-top: 1px groove hsl(227, 10%, 46%);
-       
-        
+     border: 1.5px solid var(--Dark-grayish-blue);
+    border-style: solid none none none;
+    opacity: .2;
         
     }
      #p3{ 
